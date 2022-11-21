@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#header2{
+			font-weight: bold;
+			color: blue;
+			font-size: 28px;
+		}
+		.content header2{
+			color: inherit;
+			font-size: normal;
+		}
+		em {
+			text-decoration: overline;
+		}
+	</style>	
+	<title>feedbacl form</title>
+</head>
+<body>
+	<p id="header2">Clients</p>
+	<p class="content">The company's clients include many <em>Fortune 1000 companies</em>, branches of the military and business oeganizations.</p>
+	<h1>Feedback Form</h1>
+	<div>
+		Please fill out the form to help us improve our site
+	</div>
+	<div>
+		<br><label>Name:
+			<input name = "name" type = "text" size = "25">
+		</label>
+	</div>
+	<br>Comments:
+	<br><textarea rows = "4"cols = "50">
+		Enter comments here.
+	</textarea>
+	<div>
+		<br><label>Email:
+			<input email = "email" type = "text" size = "25">
+		</label>
+	</div>
+	<div>
+		<br><b>Things you liked:</b>
+		<form action = "/action_page.php" method = "get">
+			<input type = "checkbox" name = "liked" value="site design">Site design
+			<input type = "checkbox" name = "liked" value="Links">Links
+			<input type = "checkbox" name = "liked" value="Ease of use">Ease of use
+			<input type = "checkbox" name = "liked" value="Images">Images
+			<input type = "checkbox" name = "liked" value="Source code">Source code
+			<br>
+		</form>
+	</div>
+	<div>
+		<br><b>How did you get to our site?</b>
+		<form>
+			<input type = "radio" name = "how" value="Search engine">Search engine
+			<input type = "radio" name = "how" value="Links from another site">Links from another site
+			<input type = "radio" name = "how" value="Deitel.com Web site">Deitel.com Web site
+			<input type = "radio" name = "how" value="Reference in a book">Reference in a book
+			<input type = "radio" name = "how" value="Other">Other
+		</form>
+	</div>
+	<div>
+		<br>Rate out site:
+		<form action="/action_page.php">
+			<select name="rate">
+				<option value="Amazing">Amazing</option>
+				<option value="good">Good</option>
+				<option value="Can be better">Can be better</option>
+				<option value="bad">Bad</option>
+			</select>
+		</form>
+	</div>
+	<div>
+		<br><form method="post" action="http://www.deitel.com">
+			<input type="submit" value="Submit">
+			<input type="reset" value="Clear">
+		</form>
+	</div>
+</body>
+</html>>

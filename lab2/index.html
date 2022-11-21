@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#header{
+			color: purple;
+			font-weight: bold;
+		}
+		.smallheader{
+			background-color: lightblue;
+			font-weight: normal;
+		}
+	</style>
+	<title>HTML5</title>
+</head>
+<body>
+	<h1 id="header">Deitel & Associates, Inc.</h1>
+	<p class="smallheader">Deitel & Associates, Inc. is an authoring and corporate training organization specializing in programming languages.</p>
+	<label>Color:
+		<input type="color" autofocus #ADD8E6>
+	<label>
+	<p><label>
+		<form action="/action_page.php">
+		<label for = "appt">Date:</label>
+		<input type="date">(yyyy-mm-dd)
+		</form>
+	</p></label>
+	<p><label>Email:
+		<input type="text" name="Email" placeholder="name@domain.com">(name@domain.com)
+	</p></label>
+	<p><label>
+		<form action="/action_page.php">
+			<label for = "appt">Number:</label>
+			<input type ="number" id="quantity" min="1" max="7" value="4">(Enter a number between 0 and 7)
+		</form>
+	</p></label>
+	<p><label>
+		<form action = "/action_page.php" method="get">
+			<label for = "appt">Range:</label>
+			<input type="range" id = "vol" min = "0" max = "20">
+	</p></label></form>
+	<p><label>
+		<form action="/action_page.php">
+			<label for = "appt">Search:</label>
+			<input type="search" id="search1" name="search1" placeholder="search query">
+		</form>
+	</p></label>
+	<p><form action="/action_page.php">
+		<label for = "appt">Time:</label>
+		<input type = "time" id = "appt" name = "appt">(hh:mm)
+	</form>
+	<p><input type="submit" value="Submit">
+	<input type="reset" value="Clear"></p>
+</body>
+</html>
