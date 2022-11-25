@@ -1,0 +1,30 @@
+
+	intro{
+		color: greenyellow;
+		font-family: sans-serif;
+	}
+	content{
+		text-decoration-line: underline;
+		background-color: inherit;
+	}
+	con1{
+		text-decoration: none
+		color: red;
+		margin-left: 20px;
+		font-size: .8em;
+	}
+	intro{
+		color: blueviolet;
+		font-family: sans-serif;
+	}
+	con2{
+		text-decoration-line: underline;
+		background-color: inherit;
+	}
+	body{
+		background-image: url('elephant.jfif');
+		background-attachment: fixed;
+		background-position: bottom right;
+		font-family: cursive;
+		background-color: greenyellow;
+	}
