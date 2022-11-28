@@ -1,0 +1,40 @@
+<style type="text/css">
+		body{ font-family: arial, sans-serif; 
+			padding: 20em;
+			color: whitesmoke;
+			background-color: white;}
+		@media screen and (min-width: 480px){
+			nav ul{
+				background-color: lightblue;
+			}
+		}
+		nav{font-weight: bold;
+			color: white;
+			border: 2px solid RoyalBlue;
+			text-align: center;
+			width: 40em;
+			background-color: royalblue;}
+		nav ul{
+			display: none;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			width: 50em;
+			position: relative;
+			top: -1ex;
+			left: -1ex;
+			}
+		nav:hover ul{
+			display: block;}
+		nav ul li{
+			border-top: 2px solid royalblue;
+			background-color: white;
+			width: 10em;
+			color: whitesmoke;
+			background: url(elephant.jfif);
+			margin: 10em;
+			padding: 10em;
+			border-right: 10em;}
+		nav ul li:hover { background-color: powderBlue;}
+		a{text-decoration: none;}
+</style>
