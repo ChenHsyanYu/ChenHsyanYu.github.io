@@ -9,6 +9,9 @@
 		margin-top: 2%;
 		float: top;
 	}
+	float{
+		float: left;
+	}
 	pad{
 		margin-left: 10%;
 	}
