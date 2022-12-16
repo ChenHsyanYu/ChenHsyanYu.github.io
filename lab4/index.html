@@ -5,19 +5,16 @@
 </head>
 <body>
 <script>
-	var firstInput;
-	var secondInput;
-
-	firstInput = window.prompt("Please enter the first number");
-	secondInput = window.prompt("Please enter the second number");
+	var firstInput = window.prompt("please input the first number");
+	var secondInput = window.prompt("please input the second number");
 
 	if (firstInput>secondInput) {
 		document.body.style.backgroundColor = 'lightBlue';
-		document.write(firstInput" > "secondInput);
+		document.write(firstInput+" > "+secondInput);
 	}
 	else if (secondInput>firstInput) {
 		document.body.style.backgroundColor = 'lightGreen';
-		document.write(secondInput" > "firstInput);	
+		document.write(secondInput+" > "+firstInput);	
 	}
 	else{
 		document.body.style.backgroundColor = 'lightYellow';
