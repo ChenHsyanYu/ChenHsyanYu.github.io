@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab4_111306007</title>
+</head>
+<body>
+<script>
+	var firstInput;
+	var secondInput;
+
+	firstInput = window.prompt("Please enter the first number");
+	secondInput = window.prompt("Please enter the second number");
+	if (firstInput>secondInput) {
+		document.body.style.backgroundColor = 'lightBlue';
+		document.write("firstInput>secondInput");
+	}
+	else if (secondInput>firstInput) {
+		document.body.style.backgroundColor = 'lightGreen';
+		document.write("secondInput>firstInput");	
+	}
+	else{
+		document.body.style.backgroundColor = 'lightYellow';
+		document.write("secondInput == firstInput");	
+	}
+</script>
+	<input type="button" value="show 1st number" onclick="document.write(firstInput)";>
+	<input type="button" value="show 2nd number" onclick="document.write(secondInput)";>
+</body>
+</html>
