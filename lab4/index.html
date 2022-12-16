@@ -8,8 +8,8 @@
 	var firstInput;
 	var secondInput;
 
-	firstInput = parseInt(window.prompt("Please enter the first number"));
-	secondInput = parseInt(window.prompt("Please enter the second number"));
+	firstInput = window.prompt("Please enter the first number");
+	secondInput = window.prompt("Please enter the second number");
 
 	if (firstInput>secondInput) {
 		document.body.style.backgroundColor = 'lightBlue';
@@ -24,7 +24,7 @@
 		document.write(secondInput+" == " +firstInput);	
 	}
 </script>
-	<input type="button" value="show 1st number" onclick="alert(firstInput)";>
-	<input type="button" value="show 2nd number" onclick="alert(secondInput)";>
+	<input type="button" value="show 1st number" onclick="alert('firstInput')";>
+	<input type="button" value="show 2nd number" onclick="alert('secondInput')";>
 </body>
 </html>
