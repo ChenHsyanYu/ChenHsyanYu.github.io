@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>111306007_homework</title>
+</head>
+<body>
+<script>
+	var rand = Math.floor((Math.random()*10+1));
+	var guessNum = window.prompt("Please enter a number between 1 and 10");
+	while(guessNum != rand){
+		guessNum = window.prompt("Please enter a number between 1 and 10 again");
+	}
+	if(guessNum == rand){
+		document.write("correct!");
+	}
+</script>
+
+</body>
+</html>
