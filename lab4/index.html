@@ -8,8 +8,9 @@
 	var firstInput;
 	var secondInput;
 
-	firstInput = window.prompt("Please enter the first number");
-	secondInput = window.prompt("Please enter the second number");
+	firstInput = parseInt(window.prompt("Please enter the first number"));
+	secondInput = parseInt(window.prompt("Please enter the second number"));
+
 	if (firstInput>secondInput) {
 		document.body.style.backgroundColor = 'lightBlue';
 		document.write("firstInput>secondInput");
