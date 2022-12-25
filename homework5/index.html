@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS homework2</title>
+</head>
+<body>
+	<script>
+		var	firstNum = window.prompt("Number 1:");
+		var	secondNum = window.prompt("Number 2:");
+		var	chooseCalWay = window.prompt("choose operation way:(+,-,*,/)");
+		var result;
+		function start(){
+			firstNum = getElementById("firstNum");
+			secondNum = getElementById("secondNum");
+			chooseCalWay = getElementById("choose") 
+			result = getElementById("result");
+		}
+		
+		function calculate(){
+			if(chooseCalWay == "+"){
+				result = parseInt(firstNum) + parseInt(secondNum);
+			}
+			else if(chooseCalWay == "-"){
+				result = parseInt(firstNum) - parseInt(secondNum);
+			}
+			else if(chooseCalWay == "*"){
+				result = parseInt(firstNum) * parseInt(secondNum);
+			}
+			else{
+				result = parseInt(firstNum) / parseInt(secondNum);
+			}
+			return result;
+		}
+		document.write("result:"+calculate());
+
+		window.addEventListener("load", start,false);
+	</script>
+
+</body>
+</html>
